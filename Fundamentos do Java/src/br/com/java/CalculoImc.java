@@ -16,9 +16,10 @@ public class CalculoImc {
 		System.out.print("Digite a sua altura em metros: ");
 		altura = digitado.nextDouble();
 		// a linha abaixo faz o calculo de imc
-		imc = peso / (altura * altura) / 2;
+		imc = peso / (altura * altura);
 		// saida
 		System.out.println("o valor da sua massa corporal é:" + imc);
+		
 	}
 
 }
