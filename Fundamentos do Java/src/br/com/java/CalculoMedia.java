@@ -21,6 +21,22 @@ public class CalculoMedia {
 		//saída 
 		// + concatena(junta) um texto com o conteúdo da variável media 
 		System.out.println("media final: " + media);
-	}
+		//estrutura condicional para verificar o status do aluno
+		//menor ou igual a 2 - reprovado 
+		//entre 2 a 5 - recuperação 
+		//maior ou igual a 5 - aprovado 
+		
+		if (media <= 2 ) {
+			System.out.println("REPROVADO");
+		}else if (media > 2 && media < 5 ){
+			
+			System.out.println("RECUPERAÇÃO");
+		}else {
+			System.out.println("APROVADO");
+		}
+			
+		
+		
+		}
 
 }
